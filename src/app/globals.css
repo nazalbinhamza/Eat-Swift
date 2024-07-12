@@ -18,6 +18,12 @@
 
 body {
   background-color: white;
+  overflow: auto;
+}
+
+/* Hide scrollbar for WebKit browsers */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 @layer utilities {
