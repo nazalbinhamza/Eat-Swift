@@ -33,19 +33,19 @@ function Page() {
           transform: 'translate(-50%, -50%)',
         }}
       >
-        <h1 className={`${kronaOne.className} tracking-widest text-[30px]`}>Welcome</h1>
+        <h1 className={`${kronaOne.className} tracking-widest text-[30px]`}>Welcome</h1><br />
         <form className='flex flex-col space-y-6'>
           <input
             required
             type='text'
             placeholder='Username'
-            className='p-2 rounded-md border border-gray-300'
+            className='p-2 rounded-md'
           />
           <input
             required
             type='password'
             placeholder='Password'
-            className='p-2 rounded-md border border-gray-300'
+            className='p-2 rounded-md'
           />
           <Link href={'/'}>
           <Btn />
