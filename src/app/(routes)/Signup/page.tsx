@@ -1,12 +1,20 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import { Krona_One,Inria_Sans } from '@next/font/google';
 import Btn from '@/app/_components/shared/btn';
 import Link from 'next/link';
 
 const kronaOne = Krona_One({ weight: '400', subsets: ['latin'] });
-const InriaSans = Inria_Sans({weight:'700', subsets: ['latin'] })
+const InriaSans = Inria_Sans({weight:'700', subsets: ['latin'] });
 
 function Page() {
+
+  const [username, setUsername] = useState<string>('');
+  const [email, setEmail] = useState<string>('');
+  const [address, setAddress] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
+
+
   return (
     <div className='relative flex h-screen'>
       <div className='w-1/2 bg-white'></div>
@@ -40,24 +48,28 @@ function Page() {
             type='text'
             placeholder='Username'
             className='p-2 rounded-md'
+            onChange={(e)=>setUsername(e.target.value)}
           />
           <input
             required
             type='text'
             placeholder='Email address'
             className='p-2 rounded-md'
+            onChange={(e)=>setEmail(e.target.value)}
           />
             <input
             required
             type='text'
             placeholder='Address'
             className='p-2 rounded-md'
+            onChange={(e)=>setAddress(e.target.value)}
           />
             <input
             required
             type='text'
             placeholder='Password'
             className='p-2 rounded-md'
+            onChange={(e)=>setPassword(e.target.value)}
           />
           <Link href={'/'}>
           <Btn />
