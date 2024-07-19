@@ -68,6 +68,39 @@ export default function Home() {
           <h1 className="text-[10px] font-semibold md:text-[18px]">Noodles</h1>
         </div>
       </div>
+      <div className="flex flex-col  mt-10 ml-[5%] md:ml-[7%]">
+        <h1 className="text-xl md:text-3xl font-bold mb-8">Best Place to Eat Across Cities</h1>
+        <div className="flex flex-wrap justify-start gap-4 md:gap-10 mb-8 w-[370px] md:w-[1000px]">
+          <button className="bg-white text-gray-800 py-2 px-4 rounded-lg shadow-md border border-gray-100 hover:shadow-xl md:text-[18px] md:h-[60px] md:w-[260px]">
+            Bangalore
+          </button>
+          <button className="bg-white text-gray-800 py-2 px-4 rounded-lg shadow-md border border-gray-100 hover:shadow-xl md:text-[18px] md:h-[60px] md:w-[260px]">
+            Hyderabad
+          </button>
+          <button className="bg-white text-gray-800 py-2 px-4 rounded-lg shadow-md border border-gray-100 hover:shadow-xl md:text-[18px] md:h-[60px] md:w-[260px]">
+            Mumbai
+          </button>
+          <button className="bg-white text-gray-800 py-2 px-4 rounded-lg shadow-md border border-gray-100 hover:shadow-xl md:text-[18px] md:h-[60px] md:w-[260px]">
+            Ahmedabad
+          </button>
+          <button className="bg-white text-gray-800 py-2 px-4 rounded-lg shadow-md border border-gray-100 hover:shadow-xl md:text-[18px] md:h-[60px] md:w-[260px]">
+            Chennai
+          </button>
+          <button className="bg-white text-gray-800 py-2 px-4 rounded-lg shadow-md border border-gray-100 hover:shadow-xl md:text-[18px] md:h-[60px] md:w-[260px]">
+            Nagpur
+          </button>
+        </div>
+        <h2 className="text-xl md:text-3xl font-bold mb-4">Explore Every Restaurant Near Me</h2>
+        <div className="flex flex-wrap justify-start gap-3 md:gap-9">
+          <button className="bg-white text-gray-800 py-2 px-4 rounded-lg shadow-md border border-gray-100 text-[10px] md:text-[17px] hover:shadow-xl md:h-[60px] md:w-[300px]">
+            Restaurants Near Me
+          </button>
+          <button className="bg-white text-gray-800 py-2 px-4 rounded-lg shadow-md border border-gray-100 text-[10px] md:text-[17px] hover:shadow-xl  md:h-[60px] md:w-[300px]">
+            Top rated Restaurants Near Me
+          </button>
+        </div>
+        <br/>
+      </div>
     </div>
   );
 }
