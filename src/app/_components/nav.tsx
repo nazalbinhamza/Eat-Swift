@@ -41,7 +41,7 @@ function Nav() {
   return (
     <div className="flex flex-col justify-between p-1">
       <header>
-        <div className="flex justify-start">
+        <div data-aos="fade-right" className="flex justify-start">
           <img className="h-[90px] w-[150px]" src="Logo.png" alt="Logo" />
           <div className="hidden md:flex p-12 gap-7 font-semibold font-inter">
             {['Home', 'Category', 'About us', 'Reservation', 'Blog'].map((link) => (
@@ -57,7 +57,7 @@ function Nav() {
             ))}
           </div>
         </div>
-        <div className="flex justify-end mt-[-50px] pr-[40px] md:hidden">
+        <div data-aos="fade-left" className="flex justify-end mt-[-50px] pr-[40px] md:hidden">
           <div className="md:hidden">
             <button
               className="w-[30px] h-[30px] bg-white rounded-full shadow-md flex justify-around items-center p-2"
@@ -69,7 +69,7 @@ function Nav() {
             </button>
           </div>
         </div>
-        <div className="hidden md:flex justify-end gap-8 mr-[50px] mt-[-70px]">
+        <div data-aos="fade-left" className="hidden md:flex justify-end gap-8 mr-[50px] mt-[-70px]">
           <div className="w-[25px] bg-white h-[25px] rounded-full shadow-md flex justify-around p-[4px]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-4">
               <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
