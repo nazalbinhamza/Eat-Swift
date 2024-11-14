@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer  data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100" className="bg-gray-200 text-gray-700 py-10">
+    <footer  data-aos="fade-up" data-aos-duration="1500" data-aos-offset="100" className="bg-gray-200 text-gray-700 py-7 mt-14">
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center md:flex-row justify-between md:items-start">
           {/* Company Section */}
