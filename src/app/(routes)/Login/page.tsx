@@ -12,13 +12,13 @@ function Page() {
       <div style={{ backgroundColor: '#F09217' }} className='w-1/2'></div>
       <div className='w-1/2 bg-white'></div>
       <div className='absolute inset-0 flex items-center justify-center'>
-        <h1 className={`${kronaOne.className} text-[50px] md:text-[200px] tracking-wide font-bold `}>
+        <h1 className={`${kronaOne.className} text-[50px] md:text-[200px] lg:text-[200px] tracking-wide font-bold `}>
           <span className='text-white'>EAT </span>SWIFT
         </h1>
       </div>
       <img 
         src='burgerauth.png' 
-        className='absolute w-auto h-[200px] md:h-[500px]'
+        className='absolute w-auto h-[200px] md:h-[500px] lg:h-[500px]'
         style={{ 
           top: '50%', 
           left: '50%', 
@@ -26,7 +26,7 @@ function Page() {
         }} 
       />
       <div 
-        className='absolute w-auto h-auto p-5 text-center md:p-10 bg-white bg-opacity-50 rounded-md'
+        className='absolute w-auto h-auto p-5 text-center md:p-10 lg:p-10 bg-white bg-opacity-50 rounded-md'
         style={{
           top: '50%', 
           left: '50%', 
